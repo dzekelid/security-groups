@@ -11,11 +11,67 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Security Groups
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS RDS API - Authorize D B Security Group Ingress
+  x-api-slug: actionauthorizedbsecuritygroupingress-get
+  description: Enables ingress to a DBSecurityGroup using one of two forms of authorization.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/actionauthorizedbsecuritygroupingress-get-openapi.md
+- name: AWS RDS API - Create D B Security Group
+  x-api-slug: actioncreatedbsecuritygroup-get
+  description: Creates a new DB security group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/actioncreatedbsecuritygroup-get-openapi.md
+- name: AWS RDS API - Delete D B Security Group
+  x-api-slug: actiondeletedbsecuritygroup-get
+  description: Deletes a DB security group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/actiondeletedbsecuritygroup-get-openapi.md
+- name: AWS RDS API - Describe D B Security Groups
+  x-api-slug: actiondescribedbsecuritygroups-get
+  description: Returns a list of DBSecurityGroup descriptions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/actiondescribedbsecuritygroups-get-openapi.md
+- name: AWS RDS API - Revoke D B Security Group Ingress
+  x-api-slug: actionrevokedbsecuritygroupingress-get
+  description: Revokes ingress from a DBSecurityGroup for previously authorized IP
+    ranges or EC2 or VPC Security Groups.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-rds/actionrevokedbsecuritygroupingress-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io

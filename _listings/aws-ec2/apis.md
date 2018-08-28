@@ -16,11 +16,57 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Security Groups
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS EC2 API - Describe Stale Security Groups ( E C2- V P C only)
+  x-api-slug: actiondescribestalesecuritygroups-ec2vpc-only-get
+  description: '[EC2-VPC only] Describes the stale security group rules for security
+    groups in a specified VPC.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-ec2/actiondescribestalesecuritygroups-ec2vpc-only-get-openapi.md
+- name: AWS EC2 API - Revoke Security Group Egress ( E C2- V P C only)
+  x-api-slug: actionrevokesecuritygroupegress-ec2vpc-only-get
+  description: '[EC2-VPC only] Removes one or more egress rules from a security group
+    for EC2-VPC.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-ec2/actionrevokesecuritygroupegress-ec2vpc-only-get-openapi.md
+- name: AWS EC2 API - Revoke Security Group Ingress
+  x-api-slug: actionrevokesecuritygroupingress-get
+  description: Removes one or more ingress rules from a security group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-ec2/actionrevokesecuritygroupingress-get-openapi.md
+- name: AWS EC2 API - Describe Security Groups
+  x-api-slug: actiondescribesecuritygroups-get
+  description: Describes one or more of your security groups.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/security-groups/master/_listings/aws-ec2/actiondescribesecuritygroups-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.dynamodb.api.gallery.streamdata.io
